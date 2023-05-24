@@ -1,0 +1,84 @@
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 10% 20% 10% 60%;
+}
+
+.success {
+    background-color: #dbf2f2;
+}
+
+.failure {
+    background-color: #ffe6eb;
+}
+
+.window-container {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.inner-container {
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+.widget-container {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.search-input-field {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.load-url-button {
+    width: 100px;
+}
+
+.flex-display {
+    display: flex;
+    align-items: center;
+}
+
+.block-display {
+    display: block;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.margin-top-basic {
+    margin-top: 15px;
+}
+
+.vertical-margin-basic {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.margin-right-basic {
+    margin-right: 5px;
+}
+
+.heading {
+    font-size: 24px;
+}
+
+.subHeader {
+    font-size: 20px;
+}
